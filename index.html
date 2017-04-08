@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html dir='rtl' lang='ar'>
+<head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<title>كِز!</title>
+
+<meta name='description' content='ارسل لرقم واتس آب بدون ما تحفظ الرقم في جوالك'>
+
+<link rel="apple-touch-icon" href="logo.png">
+</head>
+
+<body>
+<div class='container wrapper'>
+  <div class='row'>
+    <div class='column'>
+      <h1> <b> كِز! </b> </h1>
+      <p> ارسل لرقم واتس آب بدون ما تحفظ الرقم في جوالك</p>
+    </div>
+  </div>
+
+    <!-- text input -->
+    <div class='row'>
+      <div class='column'> 
+        <input type="text" class='text-field' placeholder="مثال: 966555123123" id="no">
+      </div>
+    </div>
+  
+    <!-- kizzzz -->
+    <div class='row'>
+      <div class='column'> 
+        <button onclick='kizzzz();' class='button button-kizzzz'> افتح المحادثة </button>
+      <div> 
+    </div>
+
+  <p class='tip'> احفظ الموقع بالمفضلة! </p>
+
+  <hr/>
+  <footer>
+    أعجبك الموقع؟
+    <a class='share-link' href='https://api.whatsapp.com/send?text=احيانا%20ودك%20تكلم%20أحد%20على%20الواتساب%20بدون%20ما%20تسجل%20رقمه.%20هذا%20الموقع%20يخليك%20تقدر%20تسوي%20كذا%20بسهولة.%20احفظوه%20بالمفضلة%20عشان%20تلقونه%20إذا%20احتجتوه%0A%0Ahttp://www.kizzzz.com'>شارك الرابط على واتس آب </a>
+  </footer>
+</div>
+
+<script>
+function kizzzz(){
+  no = document.getElementById('no').value
+  window.location.href = "https://api.whatsapp.com/send?phone="+no;
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="styles.css">
+</body>
+
+
+
+</html>
+
